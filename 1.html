@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">My Portfolio Website</h2>
+            <ul class="nav-links">
+                <li><a herf="#Home">Home</a></li>
+                <li><a herf="#About">About</a></li>
+                <li><a herf="#Projects">Projects</a></li>
+                <li><a herf="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <h1>Hello, I'm  <span>Danish</span></h1>
+        <p>Full Stack Developer | Designer | Programmer</p>
+        <button onclick="scrollToSection('projects')">View My Work</button>
+
+    </section>
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I Am Passionate Full Stack Developer Skilled in HTML,CSS and JAVASCRIPT.
+            I love building responsive and interactive Websites.
+        </p>
+    </section>
+    <!--projects section-->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="projects-card">
+            <h3>Project One</h3>
+            <p>Description of your project goes here.</p>
+
+        </div>
+        <div class="projects-card">
+            <h3>Project Two</h3>
+            <p>Description of your project goes here.</p>
+
+        </div>
+        <div class="projects-card">
+            <h3>Project Three</h3>
+            <p>Description of your project goes here.</p>
+
+    </section>
+    <!--contact-section-->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+                                    
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+    <srcipt src="1.js"></srcipt>
+</body>
+</html>
